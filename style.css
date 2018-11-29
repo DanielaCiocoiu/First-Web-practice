@@ -1,23 +1,37 @@
 /*Selector{
 	Property: value;
 }*/
-body{
-	background-image: url("back.jpg");
-	background-size: cover;
-}
-h2{
-	color: red;
-	text-align: center;
-	border: 5px solid purple;
-}
-p{
-	color: pink;
 
+body{
+	background-image: url("kupono-kuwamura-508400-unsplash.jpg");
+	background-size: cover;/*incadreaza imaginea de fundal*/
+}
+h2 + p{
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer; /*schimba modelul cursorului*/
 }
 p{
-	color: green;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: "Times New Roman", "Georgia";
 }
 li{
-	list-style: none;
-	
+	list-style: none; /*fara puncte*/
+	display: inline-block; /*aliniez cele trei pe o singura linie*/
+}
+.webtext:last-child {
+	border: 5px dashed green;
+}
+.active{
+	color: red;
+}
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+#div2{
+	background: rgba(255,0,255,0.2);
 }
