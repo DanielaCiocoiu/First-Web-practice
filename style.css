@@ -6,24 +6,35 @@ body{
 	background-image: url("kupono-kuwamura-508400-unsplash.jpg");
 	background-size: cover;/*incadreaza imaginea de fundal*/
 }
-h2 + p{
+h2{
+	color: red;
+}
+p {
 	color: #AA4139;
 	text-align: center;
 	border: 5px solid rgba(255, 176, 170, 0.5);
 	cursor: pointer; /*schimba modelul cursorului*/
 }
 p{
-	line-height: 20px;
+	line-height: 50px;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 80%;
-	font-family: "Times New Roman", "Georgia";
+	font-size: 130%;
+	font-family: 'Poiret One', cursive;
+
+}
+img{
+	float: right;
+}
+footer{
+	clear: both;
+	text-align: center;
 }
 li{
 	list-style: none; /*fara puncte*/
 	display: inline-block; /*aliniez cele trei pe o singura linie*/
 }
-.webtext:last-child {
+.webtext:first-child {
 	border: 5px dashed green;
 }
 .active{
